@@ -1,0 +1,128 @@
+*,
+*::before,
+*::after {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: 'Fabada', sans-serif;
+                                                
+}
+
+img {
+    max-width: 100%;
+    object-fit: cover;
+}
+
+footer{
+    background-color: #222;
+}
+
+.txt-align-center{
+    text-align: center;
+}
+
+.pding-vert{
+    padding: 10px 0;
+}
+
+.bgr-bl{
+    background-color: #9792e4;
+}
+
+.bgr-az{
+    background-color: #0084fd;
+}
+
+.bgr-cl{
+    background-color: #b5ddff;
+}
+
+
+.border-rd-25{
+    border-radius: 25px;
+}
+
+.border-rd-50{
+    border-radius: 50%;
+}
+
+ul{
+    list-style-type: none;
+    color: white;
+}
+
+.nav-list{
+    display: inline;
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: center;
+    align-content: center;
+    justify-content: space-between;
+}
+    
+.container{
+    width: 100vw;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
+.col-50h{
+    min-height: 50px;
+}
+
+.row {
+    width: 80%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+}
+
+.row-testimonial{
+    width: 90%;
+    margin: auto;
+    padding: auto;
+    display: flex;
+    justify-content: space-between;
+}
+
+.justy-wrap{
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.col-30,
+.col-50,
+.col-65,
+.col-100{
+    border: 1px solid black;
+    margin: 30px 0;
+}
+
+.col-20,
+.col-80{
+    border: 1px solid black;
+    min-height: 320px;
+}
+
+.col-30{
+    width: 30%;
+}
+
+.col-50{
+    width: 50%;
+}
+
+.col-65{
+    width: 65%;
+}
+
+.col-100{
+    width: 100%;
+}
+
+.col-20 .immage img{
+    object-fit: cover;
+}
