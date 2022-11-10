@@ -24,8 +24,16 @@ footer{
     text-align: center;
 }
 
+.bg-colr-wh{
+    background-color: white;
+}
+
 .pding-vert{
     padding: 10px 0;
+}
+
+.padng-5-per-cent{
+    padding: 5% 5%;
 }
 
 .bgr-bl{
@@ -93,17 +101,17 @@ ul{
     justify-content: space-between;
 }
 
+
+
 .col-30,
 .col-50,
 .col-65,
 .col-100{
-    border: 1px solid black;
     margin: 30px 0;
 }
 
 .col-20,
 .col-80{
-    border: 1px solid black;
     min-height: 320px;
 }
 
